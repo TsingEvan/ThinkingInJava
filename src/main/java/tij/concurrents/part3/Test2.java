@@ -8,6 +8,7 @@ public class Test2 {
             return i;
         } finally {
             i++;
+            return i;
 //            return ++i;
         }
 //        try{

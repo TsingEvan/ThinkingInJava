@@ -76,7 +76,7 @@ public class AttemptLocking {
 //                    Thread.yield();
 //                }
                 System.out.println(al.lock.tryLock());/**
-                                            其实只需要这么一行代码就能验证锁是否会随着线程运行完毕而被自动释放
+                                            >>>其实只需要这么一行代码就能验证锁是否会随着线程运行完毕而被自动释放
                                             main.untimed 和 main.time 输出都为false 故而得出结论：不能
                                                             */
 
