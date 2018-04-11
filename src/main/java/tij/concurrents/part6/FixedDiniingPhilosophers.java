@@ -1,7 +1,5 @@
 package tij.concurrents.part6;
 
-import com.sun.rmi.rmid.ExecOptionPermission;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
